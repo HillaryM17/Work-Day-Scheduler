@@ -38,4 +38,21 @@ saveBtn.on("click",function(){
 })
 
 
-
+$("#9 .event").val(localStorage.getItem("9"));
+console.log($("#9 .event"));
+$("#10 .event").val(localStorage.getItem("10"));
+console.log($("#10 .event"));
+$("#11 .event").val(localStorage.getItem("11"));
+console.log($("#11 .event"));
+$("#12 .event").val(localStorage.getItem("12"));
+console.log($("#12 .event"));
+$("#13 .event").val(localStorage.getItem("13"));
+console.log($("#13 .event"));
+$("#14 .event").val(localStorage.getItem("14"));
+console.log($("#14 .event"));
+$("#15 .event").val(localStorage.getItem("15"));
+console.log($("#15 .event"));
+$("#16 .event").val(localStorage.getItem("16"));
+console.log($("#16 .event"));
+$("#17 .event").val(localStorage.getItem("17"));
+console.log($("#17 .event"));
