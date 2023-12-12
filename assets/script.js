@@ -29,7 +29,13 @@ $(".time-block").each(function(e){
 );
 
 
-
+saveBtn.on("click",function(){
+    var text = $(this).siblings(".event").val();
+    console.log(text);
+    var appointmentTime = $(this).parent().attr("id");
+    console.log(appointmentTime);
+    localStorage.setItem(appointmentTime,text);
+})
 
 
 
