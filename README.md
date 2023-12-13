@@ -4,7 +4,7 @@ This website was created for the user to plan their working day hour by hour.
 
 ## Usage
 
-![Website Link](https://hillarym17.github.io/Work-Day-Scheduler/)
+[Website Link](https://hillarym17.github.io/Work-Day-Scheduler/)
 
 Please open the link above. The website should look as the screenshot below. 
 
