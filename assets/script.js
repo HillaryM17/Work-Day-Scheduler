@@ -1,3 +1,5 @@
+$(document).ready(function(){
+
 // date & time
 var today = dayjs();
 var hour = dayjs().hour();
@@ -8,10 +10,7 @@ $("#currentDay").text(today);
 console.log(hour);
 
 $(".time-block").each(function(e){
-    //console.log(block);
-   //console.log($(this))
     var blockHour = $(this).attr("id");
-    //var textArea = $(".time-block").children("textarea")
     console.log(blockHour);
     if (hour > blockHour){
         $(this).addClass("past")
@@ -56,3 +55,5 @@ $("#16 .event").val(localStorage.getItem("16"));
 console.log($("#16 .event"));
 $("#17 .event").val(localStorage.getItem("17"));
 console.log($("#17 .event"));
+
+})
